@@ -9,7 +9,7 @@ const NewTodoForm = () => {
 				className="new-todo-input"
 				type="text"
 				placeholder="Typer your new todo here"
-				vaule={input.vaule}
+				vaule={inputValue}
 				onChange={(e) => setInputValue(e.target.vaule)}
 			/>
 			<button className="new-todo-button">Create Todo</button>
